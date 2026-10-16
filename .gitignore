@@ -1,0 +1,39 @@
+# Modelos GGUF (no subir al repo)
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/*.ggml
+
+# Datos locales de WebUI
+.webui/
+webui-data/
+data/
+.cache/
+.Ollama/
+open-webui-data/
+
+# Variables/env
+.env
+.env.local
+
+# Binario de Bifrost (descargar release por SO/arquitectura)
+bifrost/bifrost
+bifrost/bifrost.exe
+bifrost/*.tar.gz
+bifrost/*.zip
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Node/npm (por si acaso)
+node_modules/
+
+# SO
+.DS_Store
+Thumbs.db
+*.log
